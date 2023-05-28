@@ -7,7 +7,7 @@ for getting all children files and folders inside the present directory.
 ### pwd: 
 print working directory. 
 ### diffrence between cd bin and cd /bin :
-'/bin' is absolute path and 'bin' is relative path. 
+'/bin' is absolute path and 'bin' is relative path. Absolute path means it is starting with '/' the full path and with relative path we can only goto next file or folder.
 ### cd.. : 
 One folder back. 
 ### mkdir 'foldername': 
