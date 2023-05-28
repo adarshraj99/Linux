@@ -90,4 +90,7 @@ After opening vim editor click 'i' then can write.
 To directly exit without saving.
 #### wq : 
 To save and exit. Can use 'escape',':','wq'.
-#### 
+#### How to search and areplace, 
+#### scp:To send file from one to other servers:
+#### How to check linux version and other software versions
+#### grep: 
