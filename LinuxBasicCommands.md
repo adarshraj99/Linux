@@ -2,6 +2,17 @@ Linux is case sensitive.
 
 #### ctrl Shift ++ : 
 Zoom-in
+#### top: 
+To get the most resource consuming processes currently.
+#### ps: 
+To list all the processes.
+#### ps -a: 
+To list all the background processes. 
+#### kill 'processID': 
+To stop the working processes(running softwares). Can get the working processID by 'top' command.
+
+
+
 
 ## File system: 
 
@@ -45,8 +56,8 @@ To install softwares with name 'softwareName'.
 There are 2 users inside a system : Regular user and Super user(root user).
 Regular user donot have access each other filesystrem access unless someone give it's filesystem access or someone is root user. 
 After getting access use 'sudo {command_here}' to make changes. 
-#### $: 
-$ sign means a regular user.
+#### $ and #: 
+$ sign means a regular user and # means root user.
 #### sudo :
 A normal user can write 'sudo' before any command to work as a superuser. 
 #### apt:
@@ -61,3 +72,22 @@ After getting the other user's access. If starting any command with 'sudo su', s
 ![git](https://github.com/adarshraj99/Linux/assets/122180050/8a3e898c-b2a5-4f0b-897d-db8f774d7b8f)
 Gives permission details of users, groups, others respectively. Here, 1.txt, 2.txt are file names. -rw_: is user access (read,write,no execute). r_ _: is for group (read only) and same read only is for others also.
 'Harry2' is file name and second 'harryname' is group name . __
+#### chmod 'number' 'filename': 
+To update the the user,group,others access. 
+Number: Get 'number' from https://chmodcommand.com/ by providing different access and accrodingly 'fileName' access will change.
+Here ,'Number' is coming from Binary to Integer format. checked is 1 and unchecked is 0. So, if owner is read, write ,noExecute. it is 110.
+#### chgrp: 
+To change groups.
+
+
+## vim: (a text editor): 
+Used to update the texts of a file by commandline. 
+
+#### vim 'fileName.txt':  
+To open the command line text Editor.
+After opening vim editor click 'i' then can write. 
+#### q :
+To directly exit without saving.
+#### wq : 
+To save and exit. Can use 'escape',':','wq'.
+#### 
