@@ -1,6 +1,6 @@
 ## File system: 
 
-### ls: 
+#### ls: 
 for getting all children files and folders inside the present directory. 
 ### cd /:
 'cd' takes to a directory and '/' is the root node. 
