@@ -1,16 +1,39 @@
-Linux is case sensitive. 
+#### | : 
+To mix many commands. Multiple pipes are possible.
+#### traceroute -4 'google.com': 
+To get the nodes connection in between the connection
+#### ping 'web_link':
+To check connectivity
+#### zip: and unzip: 
+#### nano : A text editor
+#### tar: 
+#### curl 'web_link':
+to communicate with website, to download
+#### wget: 
+to communicate with heavy data and get more data.
 
+Linux is case sensitive. Linux donot have recyclebin.
+#### chown: 
+Change file owner or group
+#### man: 
+To get more informations about command.
 #### ctrl Shift ++ : 
 Zoom-in
-#### top: 
+#### top: Task manager of Linux.
 To get the most resource consuming processes currently.
+#### f9: 
+To kill and process.
 #### ps: 
 To list all the processes.
 #### ps -a: 
 To list all the background processes. 
 #### kill 'processID': 
 To stop the working processes(running softwares). Can get the working processID by 'top' command.
-
+#### Kill -9 'processID': 
+To kill all the processes with this PID.
+#### dif:
+system disc usage
+#### du: 
 
 
 
@@ -42,8 +65,33 @@ copying from full file and folder path.
 To make a new hidden file named 'fileName'. It cannot be found by 'ls'.
 #### ls -a : 
 To see the hidden files and normal files together.
+#### -c:
+To count.
+#### sed:
+#### awk: 
+To get find ,replace web data.
+#### scp: 
+To copy from one machine to other machine. 
+#### winscp : 
+To copy paste from one window to other window. 
+
+
+#### ls -la : 
+Too get more file informations.
 #### ls -lart: 
 Gives list of files timesorted. l: long list, a: include hidden files, r: reverse order, t:Sort by time. 
+#### cat: 
+copy and see
+#### less: 
+#### tail: 
+To see the end of the file.
+#### head: 
+To see the start of the file
+#### rm -rf 'filename' or rm -rf *'fiername' : 
+remove file with force. 
+#### find: 
+#### q! : To unsave and go outside of vim. 
+
 #### history: 
 Gives all the previous commands provided by users.  (BEWARE OF USING PASSWORD OR SENSITIVE INFO AS COMMAND AS OTHER USERS MAY SEE)
 #### echo and printf: 
@@ -77,6 +125,7 @@ To update the the user,group,others access.
 Number: Get 'number' from https://chmodcommand.com/ by providing different access and accrodingly 'fileName' access will change.
 Here ,'Number' is coming from Binary to Integer format. checked is 1 and unchecked is 0. So, if owner is read, write ,noExecute. it is 110.
 #### chgrp: 
+#### chown: 
 To change groups.
 
 
@@ -90,7 +139,10 @@ After opening vim editor click 'i' then can write.
 To directly exit without saving.
 #### wq : 
 To save and exit. Can use 'escape',':','wq'.
+
 #### How to search and areplace, 
 #### scp:To send file from one to other servers:
 #### How to check linux version and other software versions
 #### grep: 
+To find patterns ....................many optins are in geeksforgeeks. 
+#### copy paste, find and replace ,regex search, pattern match, 
