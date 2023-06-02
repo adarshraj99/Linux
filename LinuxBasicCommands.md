@@ -74,6 +74,9 @@ To get find ,replace web data.
 To copy from one machine to other machine. 
 #### winscp : 
 To copy paste from one window to other window. 
+#### ssh: 
+secure shell connection. Used to make the connections from windows to mac ,linux or any vice versa. after getting the authority.
+
 
 
 #### ls -la : 
