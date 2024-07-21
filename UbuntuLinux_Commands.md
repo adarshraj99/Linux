@@ -64,6 +64,10 @@ To clear terminal
 #### `IP`:
 uses: 
 - To see IPconfiguration. Can see Internal and External IP addresses. Can assign, remove hardware IP connections.
+`ip addr show`: get list of all network interfaces, their IP addresses, etc.
+`ip addr add <IP_address>/<subnet_mask> dev <interface_name>`: ex: ip addr add 192.168.1.100/255.255.255.0 dev eth0.
+`ip addr del <IP_address>/<subnet_mask> dev <interface_name>`: To remove IP address.
+``
 
  #### `PS`: Prosess Status:
  By Default it shows basic listing of proceses: PID(ProcessID), TIME(CPU time used by process), CMD(Command that launched the process).
