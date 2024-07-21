@@ -1,18 +1,25 @@
-`ls` : This lists the contents of the current directory.
+#### `ls`: 
+This lists the contents of the current directory.
 
-`cat` : It is used to read content of file after `ls` command. syntax: `cat a.txt`  
+#### `cat`: 
+It is used to read content of file after `ls` command. syntax: `cat a.txt`  
 
-`cd` : Change directories. Use cd .. to go up one level and provide the directory name to enter a specific folder (e.g., cd documents).
+#### `cd`: 
+Change directories. Use cd .. to go up one level and provide the directory name to enter a specific folder (e.g., cd documents).
 
-`pwd` : Present working directory.
+#### `pwd`: 
+Present working directory.
 
-`mkdir` : To make a new directory.
+#### `mkdir`: 
+To make a new directory.
 
-`touch` : to make a new file.
+#### `touch`: 
+to make a new file.
 
-`cp` : to copy source file to destination. If destination file does not exist. It is created and if already exists. It is overwritten without any warning. 
+#### `cp`: 
+to copy source file to destination. If destination file does not exist. It is created and if already exists. It is overwritten without any warning. 
 
-syntax: `cp a.txt b.txt`. Here content of c.txt is overwritten with content of a.txt
+syntax:`cp a.txt b.txt`. Here content of c.txt is overwritten with content of a.txt
 
 syntax: `cp Src_file1 Src_file2 Src_file3 Dest_directory` . Here, all source files copied to a destination directory.
 
@@ -25,6 +32,33 @@ syntax: `cp -b a.txt b.txt` .Cretes backup of the destination file with differen
 
 #### `mv`: 
 `mv [source_file_name(s)] [Destination_path]`. To move file(s) into a destination path.
-`mv [source_directory_name(s)] [Destination_directory_name]`: 
+`mv [source_directory_name(s)] [Destination_directory_name]`: To move directory(s) into a destination directory.
+`mv -i [source_file/directory_name(s)] [Destination_file/directory_name/path]`: with -i ,it asks before overwriting the existing file.  
 
+#### `rm`: rm: 
+This removes files/directories. syntax: `rm a.txt b.txt`
+`rm -f a.txt`: force delete
+`rm -i a.txt`: to ask before deleting
 
+#### `whoami`: 
+tells current username 
+
+#### `uname -a`:
+tells info about system kernel version.
+
+#### `df`:
+shows how much disk space is used and available.
+
+#### `sudo`:
+To run command with admin privileges.
+
+#### `apt-get`:
+This is package manager of Ubuntu. For install, update ,un-install softwares.
+
+#### `man <command name>`: 
+To get all details of the provided command.
+
+#### `clear`: 
+To clear terminal
+
+#### ``:
