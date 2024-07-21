@@ -23,3 +23,8 @@ file/Directory if needed.
 
 syntax: `cp -b a.txt b.txt` .Cretes backup of the destination file with different name.
 
+#### `mv`: 
+`mv [source_file_name(s)] [Destination_path]`. To move file(s) into a destination path.
+`mv [source_directory_name(s)] [Destination_directory_name]`: 
+
+
