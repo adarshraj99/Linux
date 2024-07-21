@@ -1,4 +1,4 @@
-#### `ls`: 
+#### ```ls```: 
 This lists the contents of the current directory.
 
 #### `cat`: 
