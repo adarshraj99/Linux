@@ -8,6 +8,7 @@ To get the nodes connection in between the connection
 To check connectivity
 
 #### zip: and unzip: 
+
 #### nano : A text editor
 
 #### tar: 
@@ -131,6 +132,9 @@ To see the end of the file.
 
 #### head: 
 To see the start of the file
+
+#### rm -r foldername
+Delete folder even it have files. 
 
 #### rm -rf 'filename' or rm -rf *'fiername' : 
 remove file with force. 
