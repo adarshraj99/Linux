@@ -16,6 +16,8 @@ Present working directory.
 #### `mkdir`: 
 To make a new directory.
 
+#### echo "file contents" > filename.txt
+
 #### `touch`: 
 to make a new file.
 
