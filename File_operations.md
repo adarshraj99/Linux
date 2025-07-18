@@ -54,6 +54,12 @@ This removes files/directories. syntax: `rm a.txt b.txt`
 
 `rm -i a.txt`: to ask before deleting
 
+### find: 
+`find . -name "*.txt"` : To find files with name having `.txt` init recursively (all the child folders)
+to find onlt in same folder: `ls *.txt`  `ls *'practice'*`
+
+#### Download files: 
+Goto file and run : `wget -p "url"`
 
 #### hidden files : 
  - To hide a file .Rename it with `.` at start ex: `.mytextfile` or use `touch .myfilename`
