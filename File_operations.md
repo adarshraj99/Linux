@@ -6,7 +6,7 @@ This lists the contents of the current directory.
 
 #### `cat`: 
 It is used to read content of file after `ls` command. syntax: `cat a.txt`  
-
+ 
 #### `cd`: 
 Change directories. Use cd .. to go up one level and provide the directory name to enter a specific folder (e.g., cd documents).
 
@@ -20,6 +20,9 @@ To make a new directory.
 
 #### `touch`: 
 to make a new file.
+
+#### ``:
+create a new file.
 
 #### `cp`: 
 to copy source file to destination. If destination file does not exist. It is created and if already exists. It is overwritten without any warning. 
