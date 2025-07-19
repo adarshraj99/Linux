@@ -11,10 +11,10 @@ To check connectivity
 
 #### nano : A text editor
 
-#### tar: 
+#### top: 
 
 #### curl 'web_link':
-to communicate with website, to download
+to communicate with website, to send data to url
 
 #### wget: 
 to communicate with heavy data and get more data.
@@ -149,9 +149,9 @@ Gives all the previous commands provided by users.  (BEWARE OF USING PASSWORD OR
 for printing. eg: echo printThis   ,    printf "printThis\n" (will print in nextline).
 
 #### sudo apt install softwareName: 
-To install softwares with name 'softwareName'. 
+To install softwares with name 'softwareName'. `apt` is package manager here. 
 
-## Users system: 
+#### Users system: 
 There are 2 users inside a system : Regular user and Super user(root user).
 Regular user donot have access each other filesystrem access unless someone give it's filesystem access or someone is root user. 
 After getting access use 'sudo {command_here}' to make changes. 
@@ -163,7 +163,7 @@ $ sign means a regular user and # means root user.
 A normal user can write 'sudo' before any command to work as a superuser. 
 
 #### apt:
-To install and update software. 
+To install and update software. It is linux package manager like pip. ex: sudo apt install zip.
 
 #### sudo apt-get update: 
 To update the list of softwares available in system. Just for downloading not installing.
@@ -211,5 +211,8 @@ To save and exit. Can use 'escape',':','wq'.
 
 #### grep: 
 To find patterns ....................many optins are in geeksforgeeks. 
+
+#### uname -a: 
+system info
 
 #### copy paste, find and replace ,regex search, pattern match, 
