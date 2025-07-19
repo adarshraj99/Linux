@@ -51,11 +51,13 @@ Can be used for both moving and renaming.
 
 
 #### `rm`: rm: 
-This removes files/directories. syntax: `rm a.txt b.txt`
+This removes files,directories. syntax: `rm a.txt b.txt`
 
 `rm -f a.txt`: force delete
 
 `rm -i a.txt`: to ask before deleting
+
+`rm -r foldername`: To delete directory and the onsode directories recursively.
 
 ### find: 
 `find . -name "*.txt"` : To find files with name having `.txt` init recursively (all the child folders)
