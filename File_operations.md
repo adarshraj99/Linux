@@ -1,30 +1,44 @@
-#### `cd ~`:
+#### cd ~ :
 To move to home directory.
 
-#### `ls`: 
+#### ls : 
 This lists the contents of the current directory.
 
-#### `cat`: 
+#### cat : 
 It is used to read content of file after `ls` command. syntax: `cat a.txt`  
  
-#### `cd`: 
+#### cd : 
 Change directories. Use cd .. to go up one level and provide the directory name to enter a specific folder (e.g., cd documents).
 
-#### `pwd`: 
+#### pwd : 
 Present working directory.
 
-#### `mkdir`: 
+#### mkdir : 
 To make a new directory.
 
-#### echo "file contents" > filename.txt
+#### echo "file contents" > filename.txt :
+overwrite a file texts.
 
-#### `touch`: 
+#### echo "file contents" >> filename.txt :
+append to the existing file content
+
+#### cat > filename.txt :
+Then, 
+line1
+line2
+To create multi line file content.
+
+#### sed -i '2s/.*/Line 3 text/' myfile.txt :
+To update specific line with othe line. 
+sed : is a text editor, -i : interactive, 2 : line number 2, s/.*/Line3/ : substitute entire line with 'Line3 text'. 
+
+#### touch filename.extention : 
 to make a new file.
 
-#### ``:
-create a new file.
+#### mkdir DirectoryName :
+create a new folder.
 
-#### `cp`: 
+#### cp : 
 to copy source file to destination. If destination file does not exist. It is created and if already exists. It is overwritten without any warning. 
 
 syntax:`cp a.txt b.txt`. Here contents of a.txt is copied and a new file b.txt is created with same contents. If b.txt pre-existed, operation will ask for confirmation to overwrite b.txt or might fail.
@@ -39,7 +53,7 @@ file/Directory if needed.
 syntax: `cp -b a.txt b.txt` .Cretes backup of the destination file with different name.
 
 
-#### `mv`: 
+#### mv : 
 Can be used for both moving and renaming. 
 `mv old_folder_name new_folder_name`. To rename to new filename. `mv -f old_folder_name new_folder_name` to forcefully overwrite if a file with same new filename already exists. 
 
@@ -50,7 +64,7 @@ Can be used for both moving and renaming.
 `mv -i [source_file/directory_name(s)] [Destination_file/directory_name/path]`: with -i ,it asks before overwriting the existing file.  
 
 
-#### `rm`: rm: 
+#### `rm` : 
 This removes files,directories. syntax: `rm a.txt b.txt`
 
 `rm -f a.txt`: force delete
@@ -59,14 +73,14 @@ This removes files,directories. syntax: `rm a.txt b.txt`
 
 `rm -r foldername`: To delete directory and the onsode directories recursively.
 
-### find: 
+#### find: 
 `find . -name "*.txt"` : To find files with name having `.txt` init recursively (all the child folders)
 to find onlt in same folder: `ls *.txt`  `ls *'practice'*`
 
-#### Download files: 
+#### Download files from url: 
 Goto file and run : `wget -p "url"`
 
-#### hidden files : 
+#### hidden files :  Change permissions:
  - To hide a file .Rename it with `.` at start ex: `.mytextfile` or use `touch .myfilename`
    
  - To un-hide  file: Same way do remove the `.` to unhide a file. Use `ls -a` to view all the files including the hidden ones.
@@ -87,10 +101,16 @@ Goto file and run : `wget -p "url"`
    
    `recipient_email` is the email address of the recipient who has the corresponding public key to decrypt the file.
    
- #### unzip {options} {filename}: 
- To extract the ziped file.
+#### zip:
+ `zip -r file.zip file.txt` : To zip a file,  `zip -r folderName.zip FolderName` : To Zip Folder,  `zip -r Foldername.zip /path/to/Folder` : To Zip specified folders.
+ 
+#### unzip:
+ To extract the ziped file. same commands like zip 
 
- #### sort {filename}: 
- To sort files in alphabetical order.
+#### sort:
+`ls -l`: Sort by name,  `ls -lS`: Sort by name,  `ls -lt` : by time, ls -ltr: by time in reverse.
+`sort filename` : To sort lines inside file.
+To sort files in alphabetical order.
 
- #### tar {options} {action} {filename} : Options is optional here. 
+#### grep:
+
