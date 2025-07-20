@@ -2,14 +2,26 @@
 Goto from default(root directory) linux path to drive
 
 #### cd ~ :
-To move to home directory.
+To move to home directory. typically it is /home/username or /root if in root. 
+
+#### cd /:
+'cd' takes to root directory. This is top most level containing directories like: bin, mnt, home.
 
 #### ls : 
 This lists the contents of the current directory.
 
 #### cat : 
 It is used to read content of file after `ls` command. syntax: `cat a.txt`  
- 
+
+#### less:
+To read big file lines like cat. But, it dosen't load all the texts at once like cat. Here, scroll to see more
+
+#### tail: 
+To see the endlines of the file. 
+
+#### head: 
+To see the startlines of the file
+
 #### cd : 
 Change directories. Use cd .. to go up one level and provide the directory name to enter a specific folder (e.g., cd documents).
 
@@ -29,7 +41,9 @@ append to the existing file content
 Then, 
 line1
 line2
-To create multi line file content.
+To create multi line file content. This overwrites previous one. Save with CTRL+D
+`cat -n filename.txt` : To see line numbers with outputs
+
 
 #### sed -i '2s/.*/Line 3 text/' myfile.txt :
 To update specific line with othe line. 
@@ -46,9 +60,9 @@ to copy source file to destination. If destination file does not exist. It is cr
 
 syntax:`cp a.txt b.txt`. Here contents of a.txt is copied and a new file b.txt is created with same contents. If b.txt pre-existed, operation will ask for confirmation to overwrite b.txt or might fail.
 
-syntax: `cp Src_file1 Src_file2 Src_file3 Dest_directory` . Here, all source files copied to a destination directory.
+syntax: `cp Src_file1 Src_file2 Src_file3 Dest_directory` . Here, all source files copied to a destination directory. ex: `cp file.txt /mnt/foldername/folder`
 
-syntax: `cp -R Src_directory Dest_directory` copying directories.
+syntax: `cp -R Src_directory Dest_directory` copying directories. 
 
 syntax: `cp -f [Source_file] [Destination_file]` force copy. If is used if used lacks permission to write in destination file/Directory. This deletes the destination 
 file/Directory if needed.
@@ -90,6 +104,8 @@ Goto file and run : `wget -p "url"`
  - To hide a file .Rename it with `.` at start ex: `.mytextfile` or use `touch .myfilename`
    
  - To un-hide  file: Same way do remove the `.` to unhide a file. Use `ls -a` to view all the files including the hidden ones.
+
+ - `ls -a` : To see all the hidden files. 
    
  - `chmod` : To hide, can modify file permissions also to make it non-view ,non-edit.
    
@@ -120,3 +136,5 @@ To sort files in alphabetical order.
 
 #### grep:
 
+#### #### `diff file1.txt file2.txt`:
+To get diffrence between files.
