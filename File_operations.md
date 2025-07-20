@@ -58,6 +58,7 @@ syntax: `cp -b a.txt b.txt` .Cretes backup of the destination file with differen
 
 #### mv : 
 Can be used for both moving and renaming. 
+
 `mv old_folder_name new_folder_name`. To rename to new filename. `mv -f old_folder_name new_folder_name` to forcefully overwrite if a file with same new filename already exists. 
 
 `mv [source_file_name(s)] [Destination_path]`. To move file(s) into a destination path.
