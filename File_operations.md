@@ -1,5 +1,5 @@
 #### /mnt/d
-Goto from default linux path to drive
+Goto from default(root directory) linux path to drive
 
 #### cd ~ :
 To move to home directory.
