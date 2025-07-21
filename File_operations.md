@@ -169,13 +169,13 @@ To search data by patterns, search text.
 
 `grep "end_string$" filename.txt` : `$` matches at line end.
 
-`grep -E "pattern1|pattern2" filename.txt` : **`-E` enables Extended match with either "pattern1" or "pattern2"**.
+`grep "U.e" logfile.txt` : Find "U" followed by any character, then "e"
 
 `grep "[0-9]" logfile.txt` : Find lines containing any digit.
 
-`grep "U.e" logfile.txt` : Find "U" followed by any character, then "e"
-
 `grep "\d{4}" logfile.txt` : **Find lines with a 4-digit number (like a year)**
+
+`grep "\d{2}:\d{2}:\d{2,}" logfile.txt` : **Match lines containing a timestamp like "10:30:05"**
 
 `grep "Service \D" logfile.txt` : Find lines with "Service" not followed by a digit
 
@@ -188,18 +188,16 @@ To search data by patterns, search text.
 `grep "disk\W" logfile.txt` : Find "disk" followed by a non-word character
 
 
+
 `grep "WARNING.*low" logfile.txt`: Match WARNING followed by any characters until "low"
 
 `grep "[0-9]+" logfile.txt` : **Find numbers with one or more digits**
 
 `grep "colou?r" file_with_color.txt` : Match "color" or "colour" (the "u" is optional)
 
-`grep "\d{4}" logfile.txt` : **Find lines with exactly four digits**
 
-`grep "\d{2}:\d{2}:\d{2,}" logfile.txt` : **Match lines containing a timestamp like "10:30:05"**
 
 `grep "\.[a-z]{2,5}" logfile.txt` : Find lines with . followed by 2 to 5 lowercase letters
-
 
 `grep -P "\bUser\b" logfile.txt` : **Find the whole word "User" (not "Users" or "Superuser")** 
 
